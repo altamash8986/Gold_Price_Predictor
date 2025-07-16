@@ -31,13 +31,6 @@ The dataset used contains the following columns:
 
 ---
 
-## 🖥️ How to Run
-
-###  Requirements
-Install the required libraries using:
-```bash
-pip install -r requirements.txt
-
 
 ## LinkedIn Profile
 
@@ -48,4 +41,13 @@ pip install -r requirements.txt
 
 This project is licensed under the [MIT License](LICENSE).  
 You're free to use and modify it, but *you must give credit* to the original author: **Mohd Altamash**.
+
+
+## 🖥️ How to Run
+
+###  Requirements
+Install the required libraries using:
+```bash
+pip install -r requirements.txt
+
 
