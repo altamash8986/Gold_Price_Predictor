@@ -39,5 +39,13 @@ Install the required libraries using:
 pip install -r requirements.txt
 
 
+## LinkedIn Profile
 
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/mohd-altamash-0997592a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).  
+You're free to use and modify it, but *you must give credit* to the original author: **Mohd Altamash**.
 
