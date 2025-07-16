@@ -86,6 +86,7 @@ def gold_prediction(open_val, high_val, low_val, volume_val):
 
 # GUI By Blocks
 with gr.Blocks(title="Gold Price Prediction") as demo:
+    gr.Markdown("# 💰 Gold Price Predictor")
     gr.Markdown(
         "This machine learning model predicts gold price based on Open, High, Low, and Volume.\n\n**Made by MOHD ALTAMASH**"
     )
@@ -99,7 +100,7 @@ with gr.Blocks(title="Gold Price Prediction") as demo:
         volume_input = gr.Slider(label="Volume", minimum=0, maximum=1000, value=0)
 
     predict_button = gr.Button("Click Here")
-    gr.Markdown("Prediction")
+    gr.Markdown("## 📊 Prediction Output")
 
     with gr.Row():
         accuracy_output = gr.Textbox(label="Testing Accuracy", lines=1)
