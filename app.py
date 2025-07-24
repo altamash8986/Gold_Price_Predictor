@@ -76,7 +76,7 @@ def gold_prediction(open_val, high_val, low_val, volume_val):
 
     return (
         f"{model_accuracy * 100:.2f} %",
-        f"$ {round(float(prediction[0]), 4)}",
+        f"$ {round(float(prediction[0]), 2)}",
         round(mae_val, 2),
         round(rmse_val, 2),
         round(r2_val, 2),
