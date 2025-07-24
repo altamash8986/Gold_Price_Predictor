@@ -76,7 +76,7 @@ def gold_prediction(open_val, high_val, low_val, volume_val):
 
     return (
         f"{model_accuracy * 100:.2f} %",
-        round(float(prediction[0]), 4),
+        f"$ {round(float(prediction[0]), 4)}",
         round(mae_val, 2),
         round(rmse_val, 2),
         round(r2_val, 2),
@@ -103,8 +103,8 @@ with gr.Blocks(title="Gold Price Prediction") as demo:
     gr.Markdown("## 📊 Prediction Output")
 
     with gr.Row():
-        accuracy_output = gr.Textbox(label="Testing Accuracy", lines=1)
-        price_output = gr.Number(label="Price")
+        accuracy_output = gr.Label(label="Testing Accuracy",)
+        price_output = gr.Label(label="Price")
 
     with gr.Row():
         mae_output = gr.Textbox(label="Mean Absolute Error")
